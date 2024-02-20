@@ -7,6 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Apple a = new Apple(5);
+
 
         System.out.println("How to access a constant");
 
@@ -27,7 +29,7 @@ public class Main {
 
         switch (Currency.PENNY) {
             case PENNY:
-                System.out.println("it isn 1 cent");
+                System.out.println("it is 1 cent");
                 break;
             case NICKLE:
                 System.out.println("it is 5 cents");
