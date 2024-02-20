@@ -46,6 +46,18 @@ public class Main {
 
         calculate(3,5,Operation.MINUS);
 
+        System.out.println("how to retrieve the constant value");
+
+        System.out.println(Currency.NICKLE.getValue());
+
+        System.out.println(Currency.QUARTER.getValue());
+
+        System.out.println(Currency.QUARTER.ordinal()); //3 index
+
+
+
+
+
 
     }
 
