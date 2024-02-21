@@ -1,0 +1,9 @@
+package org.example;
+
+public class BubbleSort implements Sorting{
+
+    @Override
+    public void sort() {
+        System.out.println("Quick Sorting");
+    }
+}

@@ -11,6 +11,8 @@ public class CountTest {
         int count = countIf(ci, new OddPredicate());
         System.out.println("Number of odd integers = " + count);
 
+
+
     }
 
     private static <T> int countIf(List<T> c, UnaryPredicate<T> p) {
@@ -23,6 +25,8 @@ public class CountTest {
         }
         return count;
     }
+
+
 
 
 }
