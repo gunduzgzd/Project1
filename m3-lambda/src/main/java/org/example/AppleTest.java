@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 
 public class AppleTest {
 
@@ -19,6 +20,10 @@ public class AppleTest {
 
         List<Apple> greenApple = filterApples(inventory,new AppleGreenColorPredicate());
         System.out.println(greenApple);
+
+        ApplePredicate weightApple = apple -> apple.getWeight()>200;
+
+        filterApples(inventory,weightApple);
 
     }
 
