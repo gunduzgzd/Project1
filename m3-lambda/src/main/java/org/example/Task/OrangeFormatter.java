@@ -1,4 +1,6 @@
-package org.example;
+package org.example.Task;
+
+import org.example.Task.Orange;
 
 @FunctionalInterface
 public interface OrangeFormatter {

@@ -1,9 +1,10 @@
-package org.example;
+package org.example.Task;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.example.Color;
 
 @AllArgsConstructor
 @Getter
