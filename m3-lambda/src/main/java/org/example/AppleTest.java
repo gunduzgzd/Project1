@@ -25,6 +25,8 @@ public class AppleTest {
 
         filterApples(inventory,weightApple);
 
+        filterApples(inventory,apple -> apple.getWeight()>200);
+
     }
 
     private static List<Apple> filterApples(List<Apple> inventory,ApplePredicate applePredicate){
