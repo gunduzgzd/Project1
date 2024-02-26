@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
@@ -19,6 +20,17 @@ public class CarTest {
 
         Function<Integer,Car> f1= model -> new Car(model);
         Function<Integer,Car> f2= Car::new;
+
+        //two argument constructors
+
+        BiFunction<String,Integer,Car> a = (made,model)-> new Car(made,model);
+
+        BiFunction<String,Integer,Car> b = Car::new;
+        Car honda=b.apply("Honda",2020);
+        System.out.println(honda.getModel()+" "+honda.getMake());
+
+
+
 
 
 
