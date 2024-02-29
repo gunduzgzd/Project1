@@ -25,6 +25,19 @@ public class StreamOperations {
 
         str.forEach(System.out::println);
 
+        //LIMIT
+        System.out.println("limit");
+        list.stream()
+                .filter(i->i%2==0)
+                .limit(1)
+                .forEach(System.out::println);
+
+
+
+
+
+
+
 
     }
 }
