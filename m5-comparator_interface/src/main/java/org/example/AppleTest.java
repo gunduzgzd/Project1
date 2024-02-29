@@ -30,7 +30,9 @@ public class AppleTest {
         System.out.println(inventory);
 
         //reversed
-        inventory.sort(comparing(Apple::getWeight).reversed());
+        inventory
+                .sort(comparing(Apple::getWeight)
+                        .reversed());
 
         //chaining
 
