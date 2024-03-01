@@ -43,7 +43,7 @@ public class CollectorsDemo {
 
         System.out.println(dishMap);
 
-        //summingInt(ToIntFunction) : returns a Collector that produces the sum of a Integer-valued func
+        //summingInt(ToIntFunction) : returns a Collector that produces the sum of Integer-valued func
         Integer sum = DishData.getAll().stream()
                 .collect(Collectors.summingInt(Dish::getCalories));
         System.out.println(sum);
