@@ -73,6 +73,8 @@ public class CollectorsDemo {
 
         System.out.println(veggieDish);
 
+        System.out.println("++++++++++++++++++++++++");
+
         //groupingBy(); is used for grouping objects by some property and storing results in a Map instance
         Map<Type, List<Dish>> dishType = DishData.getAll().stream()
                 .collect(Collectors.groupingBy(Dish::getType));
