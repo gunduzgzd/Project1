@@ -1,4 +1,4 @@
-package org.example;
+package org.example.DishTask;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,5 @@
-package org.example;
+package org.example.DishTask;
 
-import java.util.Collections;
 import java.util.Comparator;
 
 public class DishTask {
