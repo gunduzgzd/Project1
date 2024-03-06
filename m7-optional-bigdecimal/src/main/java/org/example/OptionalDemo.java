@@ -1,6 +1,6 @@
 package org.example;
 
-import org.example.java10.Apple;
+
 import org.example.java9.FactoryMethodsDemo;
 
 import java.util.Arrays;
